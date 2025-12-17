@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL:"http://localhost:5000/api"
+  baseURL:"hhttps://game-store-project-backend-1.onrender.com/api/games"
 });
 
 export const fetchGames = ()=>
